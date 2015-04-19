@@ -1,0 +1,8 @@
+[Unit]
+Description=Encfs mount service
+
+[Service]
+Type=oneshot
+ExecStart=-/usr/bin/mount-encfs.sh add %I
+ExecStop=-/usr/bin/mount-encfs.sh remove %I
+RemainAfterExit=yes
