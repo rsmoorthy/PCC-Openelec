@@ -1,0 +1,8 @@
+[ethernet_b827ebb1e8a4_cable]
+Name=Wired
+AutoConnect=true
+Modified=1970-01-01T00:00:19.244138Z
+IPv4.method=dhcp
+IPv4.DHCP.LastAddress=192.168.0.15
+IPv6.method=off
+IPv6.privacy=disabled

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.service.resumer" name="Auto Video Resumer" version="0.0.1" provider-name="ISHA">
+	<requires>
+	 	<import addon="xbmc.python" />
+	 	<import addon="xbmc.json" />
+	</requires>
+	<extension point="xbmc.service" library="default.py" start="login">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Auto Video Resumer</summary>
+		<description>Auto video resumer for all videos</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>

@@ -1,0 +1,239 @@
+﻿11:23:57 T:1968312320  NOTICE: special://profile/ is mapped to: special://masterprofile/
+11:23:57 T:1968312320  NOTICE: -----------------------------------------------------------------------
+11:23:57 T:1968312320  NOTICE: Starting Kodi (14.2-BETA2 Git:085163e). Platform: Linux ARM 32-bit
+11:23:57 T:1968312320  NOTICE: Using Release Kodi x32 build (version for Raspberry Pi)
+11:23:57 T:1968312320  NOTICE: Kodi compiled Mar 18 2015 by GCC 4.9.2 for Linux ARM 32-bit version 3.19.0 (201472)
+11:23:57 T:1968312320  NOTICE: Running on OpenELEC (unofficial) - Version: devel-20150318164214-r20354-g595d049 5.0, kernel: Linux ARM 32-bit version 3.19.0
+11:23:57 T:1968312320  NOTICE: FFmpeg version: 2.5.4
+11:23:57 T:1968312320  NOTICE: WARNING: unsupported ffmpeg version detected
+11:23:57 T:1968312320  NOTICE: Host CPU: ARMv6-compatible processor rev 7 (v6l), 1 core available
+11:23:57 T:1968312320  NOTICE: ARM Features: Neon disabled
+11:23:57 T:1968312320  NOTICE: special://xbmc/ is mapped to: /usr/share/kodi
+11:23:57 T:1968312320  NOTICE: special://xbmcbin/ is mapped to: /usr/lib/kodi
+11:23:57 T:1968312320  NOTICE: special://masterprofile/ is mapped to: /storage/.kodi/userdata
+11:23:57 T:1968312320  NOTICE: special://home/ is mapped to: /storage/.kodi
+11:23:57 T:1968312320  NOTICE: special://temp/ is mapped to: /storage/.kodi/temp
+11:23:57 T:1968312320  NOTICE: The executable running is: /usr/lib/kodi/kodi.bin
+11:23:57 T:1968312320  NOTICE: Local hostname: OpenELEC
+11:23:57 T:1968312320  NOTICE: Log File is located: /storage/.kodi/temp/kodi.log
+11:23:57 T:1968312320  NOTICE: -----------------------------------------------------------------------
+11:23:57 T:1968312320   ERROR: DBus: Error org.freedesktop.DBus.Error.ServiceUnknown - The name org.freedesktop.UPower was not provided by any .service files
+11:23:57 T:1968312320  NOTICE: load settings...
+11:23:57 T:1968297024  NOTICE: Thread FDEventMonitor start, auto delete: false
+11:23:57 T:1968312320  NOTICE: Found 1 Lists of Devices
+11:23:57 T:1968312320  NOTICE: Enumerated PI devices:
+11:23:57 T:1968312320  NOTICE:     Device 1
+11:23:57 T:1968312320  NOTICE:         m_deviceName      : HDMI
+11:23:57 T:1968312320  NOTICE:         m_displayName     : HDMI
+11:23:57 T:1968312320  NOTICE:         m_displayNameExtra:
+11:23:57 T:1968312320  NOTICE:         m_deviceType      : AE_DEVTYPE_HDMI
+11:23:57 T:1968312320  NOTICE:         m_channels        : FL,FR
+11:23:57 T:1968312320  NOTICE:         m_sampleRates     : 8000,11025,16000,22050,24000,32000,44100,48000,88200,96000,176400,192000
+11:23:57 T:1968312320  NOTICE:         m_dataFormats     : AE_FMT_FLOAT,AE_FMT_S32NE,AE_FMT_S16NE,AE_FMT_S32LE,AE_FMT_S16LE,AE_FMT_FLOATP,AE_FMT_S32NEP,AE_FMT_S16NEP,AE_FMT_AC3,AE_FMT_DTS,AE_FMT_EAC3
+11:23:57 T:1968312320  NOTICE:     Device 2
+11:23:57 T:1968312320  NOTICE:         m_deviceName      : Analogue
+11:23:57 T:1968312320  NOTICE:         m_displayName     : Analogue
+11:23:57 T:1968312320  NOTICE:         m_displayNameExtra:
+11:23:57 T:1968312320  NOTICE:         m_deviceType      : AE_DEVTYPE_PCM
+11:23:57 T:1968312320  NOTICE:         m_channels        : FL,FR
+11:23:57 T:1968312320  NOTICE:         m_sampleRates     : 48000
+11:23:57 T:1968312320  NOTICE:         m_dataFormats     : AE_FMT_FLOAT,AE_FMT_S32LE,AE_FMT_S16LE,AE_FMT_FLOATP,AE_FMT_S32NEP,AE_FMT_S16NEP
+11:23:57 T:1968312320  NOTICE:     Device 3
+11:23:57 T:1968312320  NOTICE:         m_deviceName      : Both
+11:23:57 T:1968312320  NOTICE:         m_displayName     : HDMI and Analogue
+11:23:57 T:1968312320  NOTICE:         m_displayNameExtra:
+11:23:57 T:1968312320  NOTICE:         m_deviceType      : AE_DEVTYPE_PCM
+11:23:57 T:1968312320  NOTICE:         m_channels        : FL,FR
+11:23:57 T:1968312320  NOTICE:         m_sampleRates     : 48000
+11:23:57 T:1968312320  NOTICE:         m_dataFormats     : AE_FMT_FLOAT,AE_FMT_S32LE,AE_FMT_S16LE,AE_FMT_FLOATP,AE_FMT_S32NEP,AE_FMT_S16NEP
+11:23:57 T:1968312320  NOTICE: Loaded settings file from special://xbmc/system/advancedsettings.xml
+11:23:57 T:1968312320  NOTICE: Contents of special://xbmc/system/advancedsettings.xml are...
+                                            <?xml version="1.0" encoding="UTF-8" ?>
+                                            <advancedsettings>
+                                              <showexitbutton>false</showexitbutton>
+                                              <fanartres>720</fanartres>
+                                              <imageres>540</imageres>
+                                              <video>
+                                                <busydialogdelayms>750</busydialogdelayms>
+                                              </video>
+                                              <samba>
+                                                <clienttimeout>30</clienttimeout>
+                                              </samba>
+                                              <network>
+                                                <readbufferfactor>4.0</readbufferfactor>
+                                              </network>
+                                            </advancedsettings>
+11:23:57 T:1968312320  NOTICE: No settings file to load (special://masterprofile/advancedsettings.xml)
+11:23:57 T:1968312320  NOTICE: Default DVD Player: dvdplayer
+11:23:57 T:1968312320  NOTICE: Default Video Player: dvdplayer
+11:23:57 T:1968312320  NOTICE: Default Audio Player: paplayer
+11:23:57 T:1968312320  NOTICE: Disabled debug logging due to GUI setting. Level 0.
+11:23:57 T:1968312320  NOTICE: Log level changed to "LOG_LEVEL_NORMAL"
+11:23:57 T:1968312320  NOTICE: CMediaSourceSettings: loading media sources from special://masterprofile/sources.xml
+11:23:57 T:1968312320  NOTICE: Loading player core factory settings from special://xbmc/system/playercorefactory.xml.
+11:23:57 T:1968312320  NOTICE: Loaded playercorefactory configuration
+11:23:57 T:1968312320  NOTICE: Loading player core factory settings from special://masterprofile/playercorefactory.xml.
+11:23:57 T:1968312320  NOTICE: special://masterprofile/playercorefactory.xml does not exist. Skipping.
+11:23:58 T:1958736960  NOTICE: Thread ActiveAE start, auto delete: false
+11:23:58 T:1948251200  NOTICE: Thread AESink start, auto delete: false
+11:23:58 T:1889530944  NOTICE: Thread CRBPWorker start, auto delete: false
+11:23:59 T:1968312320  NOTICE: Running database version Addons16
+11:24:00 T:1968312320  NOTICE: ADDONS: Using repository repository.xbmc.org
+11:24:00 T:1968312320  NOTICE: ADDONS: Using repository repository.openelec.tv
+11:24:00 T:1968312320  NOTICE: Register - new cec device registered on cec->RPI: CEC Adapter (2708:1001)
+11:24:00 T:1881142336  NOTICE: Thread CECAdapter start, auto delete: false
+11:24:00 T:1855976512  NOTICE: Thread PeripBusUSBUdev start, auto delete: false
+11:24:00 T:1968312320  NOTICE: Raspberry PI firmware version: Feb 21 2015 18:37:41 
+                                            Copyright (c) 2012 Broadcom
+                                            version 35719cfaa6b22a5743a7de87ddbae98b1ff37d9b (clean) (release)
+11:24:00 T:1968312320  NOTICE: ARM mem: 352MB GPU mem: 160MB MPG2:0 WVC1:0
+11:24:00 T:1968312320  NOTICE: cacheMemBufferSize: 20MB
+11:24:00 T:1968312320  NOTICE: Config:
+                                            hdmi_channel_map=8
+                                            program_serial_random=1
+                                            config_hdmi_boost=2
+                                            disable_commandline_tags=2
+                                            emmc_pll_core=1
+                                            hdmi_ignore_cec_init=1
+                                            hdmi_force_cec_address=65535
+                                            framebuffer_ignore_alpha=1
+                                            framebuffer_swap=1
+                                            temp_limit=85
+                                            force_pwm_open=1
+                                            pause_burst_frames=1
+                                            avoid_fix_ts=1
+11:24:00 T:1968312320  NOTICE: Config:
+                                            device_tree=-
+11:24:00 T:1968312320  NOTICE: InitWindowSystem: Using EGL Implementation: raspberrypi
+11:24:00 T:1968312320  NOTICE: Found resolution 640 x 480 for display 0 with 640 x 480 @ 60.000000 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 640 x 480 for display 0 with 640 x 480 @ 59.940063 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 720 x 480 for display 0 with 720 x 480 @ 60.000000 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 720 x 480 for display 0 with 720 x 480 @ 59.940063 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 1280 x 720 for display 0 with 1280 x 720 @ 60.000000 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 1280 x 720 for display 0 with 1280 x 720 @ 59.940063 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 1920 x 1080 for display 0 with 1920 x 1080 @ 60.000000 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 1920 x 1080 for display 0 with 1920 x 1080 @ 59.940063 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 720 x 576 for display 0 with 720 x 576 @ 50.000000 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 1280 x 720 for display 0 with 1280 x 720 @ 50.000000 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 1920 x 1080 for display 0 with 1920 x 1080 @ 50.000000 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 1920 x 1080 for display 0 with 1920 x 1080 @ 24.000000 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 1920 x 1080 for display 0 with 1920 x 1080 @ 23.976025 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 1920 x 1080 for display 0 with 1920 x 1080 @ 25.000000 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 1920 x 1080 for display 0 with 1920 x 1080 @ 30.000000 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 1920 x 1080 for display 0 with 1920 x 1080 @ 29.970032 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 800 x 600 for display 0 with 800 x 600 @ 60.000000 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 800 x 600 for display 0 with 800 x 600 @ 59.940063 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 1024 x 768 for display 0 with 1024 x 768 @ 60.000000 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 1024 x 768 for display 0 with 1024 x 768 @ 59.940063 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 1280 x 1024 for display 0 with 1280 x 1024 @ 60.000000 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 1280 x 1024 for display 0 with 1280 x 1024 @ 59.940063 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 1360 x 768 for display 0 with 1360 x 768 @ 60.000000 Hz
+11:24:00 T:1968312320  NOTICE: Found resolution 1360 x 768 for display 0 with 1360 x 768 @ 59.940063 Hz
+11:24:00 T:1968312320  NOTICE: Found (1920x1080@60.000000) at 22, setting to RES_DESKTOP at 16
+11:24:00 T:1968312320  NOTICE: Checking resolution 16
+11:24:00 T:1968312320  NOTICE: GL_VENDOR = Broadcom
+11:24:00 T:1968312320  NOTICE: GL_RENDERER = VideoCore IV HW
+11:24:00 T:1968312320  NOTICE: GL_VERSION = OpenGL ES 2.0
+11:24:00 T:1968312320  NOTICE: GL_SHADING_LANGUAGE_VERSION = OpenGL ES GLSL ES 1.00
+11:24:00 T:1968312320  NOTICE: GL_EXTENSIONS = GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_paletted_texture GL_OES_texture_npot GL_OES_depth24 GL_OES_vertex_half_float GL_OES_EGL_image GL_OES_EGL_image_external GL_EXT_discard_framebuffer GL_OES_rgb8_rgba8 GL_OES_depth32 GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_APPLE_rgb_422 GL_EXT_debug_marker
+11:24:01 T:1846510656  NOTICE: Thread CECAdapterUpdate start, auto delete: false
+11:24:02 T:1968312320  NOTICE: Running database version Addons16
+11:24:02 T:1968312320  NOTICE: Running database version ViewModes6
+11:24:02 T:1968312320  NOTICE: Running database version Textures13
+11:24:02 T:1968312320  NOTICE: Running database version MyMusic48
+11:24:02 T:1968312320  NOTICE: Running database version MyVideos90
+11:24:02 T:1968312320  NOTICE: Running database version TV26
+11:24:02 T:1968312320  NOTICE: Running database version Epg8
+11:24:02 T:1968312320  NOTICE: start dvd mediatype detection
+11:24:02 T:1837753408  NOTICE: Thread DetectDVDMedia start, auto delete: false
+11:24:06 T:1968312320 WARNING: JSONRPC: Could not parse type "PVR.Details.Channel"
+11:24:06 T:1968312320 WARNING: JSONRPC: Could not parse type "PVR.Details.ChannelGroup.Extended"
+11:24:06 T:1968312320 WARNING: JSONRPC: Could not parse type "GUI.Property.Value"
+11:24:06 T:1968312320 WARNING: JSONRPC: Could not parse type "Setting.Details.SettingList"
+11:24:07 T:1837048896  NOTICE: Thread LanguageInvoker start, auto delete: false
+11:24:07 T:1968312320  NOTICE: initialize done
+11:24:07 T:1968312320  NOTICE: Running the application...
+11:24:09 T:1828197440  NOTICE: Thread JobWorker start, auto delete: true
+11:24:09 T:1968312320  NOTICE: starting zeroconf publishing
+11:24:09 T:1968312320  NOTICE: Webserver: Starting...
+11:24:09 T:1968312320  NOTICE: WebServer: Started the webserver
+11:24:09 T:1968312320  NOTICE: ES: Starting event server
+11:24:09 T:1809839168  NOTICE: Thread JobWorker start, auto delete: true
+11:24:09 T:1784673344  NOTICE: Thread EventServer start, auto delete: false
+11:24:09 T:1784673344  NOTICE: ES: Starting UDP Event server on 0.0.0.0:9777
+11:24:09 T:1784673344  NOTICE: UDP: Listening on port 9777
+11:24:09 T:1767896128  NOTICE: Thread TCPServer start, auto delete: false
+11:24:09 T:1776284736  NOTICE: Thread JobWorker start, auto delete: true
+11:24:09 T:1751118912  NOTICE: Thread AirPlayServer start, auto delete: false
+11:24:09 T:1837753408  NOTICE: Thread RSSReader start, auto delete: false
+11:24:11 T:1837048896  NOTICE: -->Python Interpreter Initialized<--
+11:24:17 T:1837048896  NOTICE: ## OpenELEC Addon ## 0.6.4
+11:55:00 T:1837753408  NOTICE: Thread RSSReader start, auto delete: false
+12:03:10 T:1828197440  NOTICE: Thread JobWorker start, auto delete: true
+12:04:57 T:1968312320  NOTICE: Previous line repeats 1 times.
+12:04:57 T:1968312320   ERROR: GetDirectory - Error getting /storage/.kodi/media/Fonts/
+12:04:57 T:1968312320   ERROR: GetDirectory - Error getting special://home/media/Fonts/
+12:04:57 T:1968312320   ERROR: GetDirectory - Error getting /storage/.kodi/media/Fonts/
+12:04:57 T:1968312320   ERROR: GetDirectory - Error getting special://home/media/Fonts/
+12:04:57 T:1968312320   ERROR: GetDirectory - Error getting /storage/.kodi/media/Fonts/
+12:04:57 T:1968312320   ERROR: GetDirectory - Error getting special://home/media/Fonts/
+12:04:57 T:1968312320   ERROR: GetDirectory - Error getting /storage/.kodi/media/Fonts/
+12:04:57 T:1968312320   ERROR: GetDirectory - Error getting special://home/media/Fonts/
+12:05:02 T:1968312320   ERROR: GetDirectory - Error getting /storage/.kodi/media/Fonts/
+12:05:02 T:1968312320   ERROR: GetDirectory - Error getting special://home/media/Fonts/
+12:05:02 T:1968312320   ERROR: GetDirectory - Error getting /storage/.kodi/media/Fonts/
+12:05:02 T:1968312320   ERROR: GetDirectory - Error getting special://home/media/Fonts/
+12:05:07 T:1968312320   ERROR: GetDirectory - Error getting /storage/.kodi/media/Fonts/
+12:05:07 T:1968312320   ERROR: GetDirectory - Error getting special://home/media/Fonts/
+12:05:07 T:1968312320   ERROR: GetDirectory - Error getting /storage/.kodi/media/Fonts/
+12:05:07 T:1968312320   ERROR: GetDirectory - Error getting special://home/media/Fonts/
+12:05:27 T:1828197440  NOTICE: Thread JobWorker start, auto delete: true
+12:06:00 T:1809839168  NOTICE: Thread BackgroundLoader start, auto delete: false
+12:06:08 T:1809839168  NOTICE: Previous line repeats 1 times.
+12:06:08 T:1809839168  NOTICE: Thread JobWorker start, auto delete: true
+12:06:19 T:1776284736  NOTICE: Thread BackgroundLoader start, auto delete: false
+12:06:41 T:1707078720  NOTICE: Previous line repeats 1 times.
+12:06:41 T:1707078720  NOTICE: Thread JobWorker start, auto delete: true
+12:06:47 T:1776284736  NOTICE: Previous line repeats 1 times.
+12:06:47 T:1776284736 WARNING: COMXImageFile::GetCodingType progressive images not supported by decoder
+12:06:47 T:1776284736   ERROR: COMXImageFile::ReadFile http://mirrors.kodi.tv/addons/helix/plugin.video.vimeo/fanart.jpg GetCodingType=0x7fffffff
+12:06:49 T:1809839168 WARNING: COMXImageFile::GetCodingType progressive images not supported by decoder
+12:06:49 T:1809839168   ERROR: COMXImageFile::ReadFile http://mirrors.kodi.tv/addons/gotham/plugin.video.zattoobox/fanart.jpg GetCodingType=0x7fffffff
+12:06:50 T:1776284736 WARNING: COMXImageFile::GetCodingType progressive images not supported by decoder
+12:06:50 T:1776284736   ERROR: COMXImageFile::ReadFile http://mirrors.kodi.tv/addons/helix/plugin.video.vimeo/fanart.jpg GetCodingType=0x7fffffff
+12:06:50 T:1776284736  NOTICE: LoadJpeg: unable to load http://mirrors.kodi.tv/addons/helix/plugin.video.vimeo/fanart.jpg
+12:06:51 T:1698690112  NOTICE: Thread FileCache start, auto delete: false
+12:06:52 T:1809839168 WARNING: COMXImageFile::GetCodingType progressive images not supported by decoder
+12:06:52 T:1809839168   ERROR: COMXImageFile::ReadFile http://mirrors.kodi.tv/addons/gotham/plugin.video.zattoobox/fanart.jpg GetCodingType=0x7fffffff
+12:06:52 T:1809839168  NOTICE: LoadJpeg: unable to load http://mirrors.kodi.tv/addons/gotham/plugin.video.zattoobox/fanart.jpg
+12:07:11 T:1698690112  NOTICE: Thread BackgroundLoader start, auto delete: false
+12:07:52 T:1690301504  NOTICE: Previous line repeats 2 times.
+12:07:52 T:1690301504  NOTICE: Thread FileCache start, auto delete: false
+12:08:07 T:1690301504  NOTICE: Thread BackgroundLoader start, auto delete: false
+12:08:14 T:1828197440 WARNING: COMXImageFile::GetCodingType progressive images not supported by decoder
+12:08:14 T:1828197440   ERROR: COMXImageFile::ReadFile http://mirrors.kodi.tv/addons/gotham/script.lazytv/fanart.jpg GetCodingType=0x7fffffff
+12:08:16 T:1828197440 WARNING: COMXImageFile::GetCodingType progressive images not supported by decoder
+12:08:16 T:1828197440   ERROR: COMXImageFile::ReadFile http://mirrors.kodi.tv/addons/gotham/script.lazytv/fanart.jpg GetCodingType=0x7fffffff
+12:08:16 T:1828197440  NOTICE: LoadJpeg: unable to load http://mirrors.kodi.tv/addons/gotham/script.lazytv/fanart.jpg
+12:08:22 T:1776284736 WARNING: COMXImageFile::GetCodingType progressive images not supported by decoder
+12:08:22 T:1776284736   ERROR: COMXImageFile::ReadFile http://mirrors.kodi.tv/addons/gotham/script.videoextras/fanart.jpg GetCodingType=0x7fffffff
+12:08:24 T:1828197440 WARNING: COMXImageFile::GetCodingType progressive images not supported by decoder
+12:08:24 T:1828197440   ERROR: COMXImageFile::ReadFile http://mirrors.kodi.tv/addons/gotham/script.evernote/fanart.jpg GetCodingType=0x7fffffff
+12:08:25 T:1776284736 WARNING: COMXImageFile::GetCodingType progressive images not supported by decoder
+12:08:25 T:1776284736   ERROR: COMXImageFile::ReadFile http://mirrors.kodi.tv/addons/gotham/script.videoextras/fanart.jpg GetCodingType=0x7fffffff
+12:08:25 T:1776284736  NOTICE: LoadJpeg: unable to load http://mirrors.kodi.tv/addons/gotham/script.videoextras/fanart.jpg
+12:08:26 T:1828197440 WARNING: COMXImageFile::GetCodingType progressive images not supported by decoder
+12:08:26 T:1828197440   ERROR: COMXImageFile::ReadFile http://mirrors.kodi.tv/addons/gotham/script.evernote/fanart.jpg GetCodingType=0x7fffffff
+12:08:26 T:1828197440  NOTICE: LoadJpeg: unable to load http://mirrors.kodi.tv/addons/gotham/script.evernote/fanart.jpg
+12:08:46 T:1809839168 WARNING: COMXImageFile::GetCodingType progressive images not supported by decoder
+12:08:46 T:1809839168   ERROR: COMXImageFile::ReadFile http://mirrors.kodi.tv/addons/gotham/plugin.program.wienerlinien/fanart.jpg GetCodingType=0x7fffffff
+12:08:46 T:1698690112  NOTICE: Thread BackgroundLoader start, auto delete: false
+12:08:49 T:1809839168 WARNING: COMXImageFile::GetCodingType progressive images not supported by decoder
+12:08:49 T:1809839168   ERROR: COMXImageFile::ReadFile http://mirrors.kodi.tv/addons/gotham/plugin.program.wienerlinien/fanart.jpg GetCodingType=0x7fffffff
+12:08:49 T:1809839168  NOTICE: LoadJpeg: unable to load http://mirrors.kodi.tv/addons/gotham/plugin.program.wienerlinien/fanart.jpg
+12:08:56 T:1698690112  NOTICE: Thread BackgroundLoader start, auto delete: false
+12:09:04 T:1698690112  NOTICE: Previous line repeats 1 times.
+12:09:04 T:1698690112  NOTICE: Thread LanguageInvoker start, auto delete: false
+12:09:05 T:1698690112  NOTICE: -->Python Interpreter Initialized<--
+12:09:06 T:1968312320   ERROR: Control 1000 in window 13001 has been asked to focus, but it can't
+12:12:25 T:1698690112  NOTICE: Thread BackgroundLoader start, auto delete: false
