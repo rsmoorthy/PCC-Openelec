@@ -103,6 +103,13 @@ post_patch() {
     sed -i -e "s|^CONFIG_ISCSI_IBFT=.*$|# CONFIG_ISCSI_IBFT is not set|" $PKG_BUILD/.config
   fi
 
+  # enable ecryptfs -- ishafoundation.org
+  if [ "$ECRYPTFS" = yes ]; then
+    sed -i -e "s|^# CONFIG_ENCRYPTED_KEYS is not set$|CONFIG_ENCRYPTED_KEYS=m|" $PKG_BUILD/.config
+    sed -i -e "s|^# CONFIG_ECRYPT_FS is not set$|CONFIG_ECRYPT_FS=m|" $PKG_BUILD/.config
+  fi
+
+
   # copy some extra firmware to linux tree
   cp -R $PKG_DIR/firmware/* $PKG_BUILD/firmware
 

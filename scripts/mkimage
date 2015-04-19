@@ -290,6 +290,12 @@ fi # bootloader
     sync
   fi
 
+# Copy the standard /storage stuff
+  cp -a storage/* $OE_TMP/
+  cp -a storage/.??* $OE_TMP/
+  chown -R root.root $OE_TMP/*
+  chown -R root.root $OE_TMP/.??*
+
 # unmount part2
   echo "image: unmounting part2..."
   umount "$LOOP"

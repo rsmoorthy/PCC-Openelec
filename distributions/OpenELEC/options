@@ -12,7 +12,7 @@
   GREETING4=""
 
 # Root password to integrate in the target system
-  ROOT_PASSWORD="openelec"
+  ROOT_PASSWORD="OpenelecIsha"
 
 # Mediacenter to use (kodi / no)
   MEDIACENTER="kodi"
@@ -141,6 +141,9 @@
 
 # Windowmanager to use (ratpoison / fluxbox / none)
   WINDOWMANAGER="fluxbox"
+
+# build and install encfs filesystem utilities (yes / no)
+  ENCFS="yes"
 
 # Xorg Graphic drivers to use (all / i915,i965,r200,r300,r600,nvidia)
 # Space separated list is supported,

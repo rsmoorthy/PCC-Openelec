@@ -152,6 +152,9 @@ IMAGE_NAME="$DISTRONAME-$TARGET_VERSION"
 # NTFS 3G support
   [ "$NTFS3G" = "yes" ] && $SCRIPTS/install ntfs-3g_ntfsprogs
 
+# encfs support
+  [ "$ENCFS" = "yes" ] && $SCRIPTS/install encfs
+
 # Remote support
   [ "$REMOTE_SUPPORT" = "yes" ] && $SCRIPTS/install remote
 
