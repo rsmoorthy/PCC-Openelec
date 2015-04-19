@@ -133,8 +133,6 @@ class Main(object):
 
 
 
-
-
     def updatePlayTime(self, filename, playtime):
         (path, fname) = os.path.split(filename)
         if not path and fname:
@@ -147,7 +145,7 @@ class Main(object):
             ret = c.execute("update bookmark SET timeInSeconds=%f where idBookmark=%d" % (playtime, ret[0]))
             self.conn.commit()
         else:
-            self._insert_record(path, fname)
+            # self._insert_record(path, fname)
             # Insert a bookmark record
             c.execute("select idFile from files where strFilename='%s' and idPath=(select idPath from path where strPath='%s')" % (fname, path))
             ret = c.fetchone()
